@@ -3,7 +3,7 @@ import HeroSection from "@/components/hero-section";
 import FeaturesSection from "@/components/features-section";
 import HowItWorksSection from "@/components/how-it-works-section";
 import UseCasesSection from "@/components/use-cases-section";
-import TestimonialsSection from "@/components/testimonials-section";
+// import TestimonialsSection from "@/components/testimonials-section";
 import CTASection from "@/components/cta-section";
 import Footer from "@/components/footer";
 
@@ -14,7 +14,7 @@ const page = () => {
       <FeaturesSection />
       <HowItWorksSection />
       <UseCasesSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <CTASection />
       <Footer />
     </main>

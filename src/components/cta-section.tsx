@@ -102,7 +102,7 @@ const floatingVariants: Variants = {
             </motion.div>
           </motion.div>
 
-          <motion.p
+          {/* <motion.p
             className="text-sm text-[#7d8590]"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -110,7 +110,7 @@ const floatingVariants: Variants = {
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             No credit card required • 5-minute setup • Cancel anytime
-          </motion.p>
+          </motion.p> */}
         </motion.div>
       </div>
     </section>

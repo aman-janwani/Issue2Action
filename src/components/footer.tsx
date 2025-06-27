@@ -5,10 +5,9 @@ import { Github } from "lucide-react"
 
 export default function Footer() {
   const links = [
-    { name: "About", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Privacy", href: "/privacy" },
+    { name: "Terms", href: "/terms" },
+    { name: "Contact", href: "/contact" },
   ]
 
   return (
@@ -56,7 +55,7 @@ export default function Footer() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-[#7d8590] text-sm">
-            © 2024 Issue2Action. Making GitHub issues make sense, one repo at a time.
+            © 2025 Issue2Action. Making GitHub issues make sense, one repo at a time.
           </p>
         </motion.div>
       </div>

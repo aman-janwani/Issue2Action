@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { motion, Variants } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Github, Play, ArrowRight, Zap, Clock, Shield, Users } from "lucide-react"
+import { Github,  ArrowRight, Zap, Clock, Shield } from "lucide-react"
 import {SignInButton} from "@clerk/nextjs"
 
 export default function HeroSection() {
@@ -171,10 +171,10 @@ export default function HeroSection() {
                   <Github className="w-4 h-4" />
                   <span>Powered by GitHub API</span>
                 </div>
-                <div className="flex items-center space-x-2">
+                {/* <div className="flex items-center space-x-2">
                   <Users className="w-4 h-4" />
                   <span>Trusted by 1,000+ developers</span>
-                </div>
+                </div> */}
               </motion.div>
 
               {/* Main Headlines */}
@@ -236,7 +236,7 @@ export default function HeroSection() {
                   </SignInButton>
                 </motion.div>
 
-                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                {/* <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button
                     variant="outline"
                     size="lg"
@@ -245,7 +245,7 @@ export default function HeroSection() {
                     <Play className="w-5 h-5 mr-2" />
                     View Demo
                   </Button>
-                </motion.div>
+                </motion.div> */}
               </motion.div>
             </div>
           </motion.div>

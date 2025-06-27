@@ -1,7 +1,7 @@
 "use client"
 
 import { motion, Variants } from "framer-motion"
-import { Brain, Clock, GitPullRequest, Users } from "lucide-react"
+import { Brain, Clock, GitPullRequest } from "lucide-react"
 
 export default function FeaturesSection() {
   const features = [
@@ -22,11 +22,11 @@ export default function FeaturesSection() {
       title: "PR Planning",
       description: "Break down complex features into bite-sized PRs that won't make your reviewers cry.",
     },
-    {
-      icon: Users,
-      title: "Team Collaboration",
-      description: "Assign tasks based on who's least likely to break production (we keep track).",
-    },
+    // {
+    //   icon: Users,
+    //   title: "Team Collaboration",
+    //   description: "Assign tasks based on who's least likely to break production (we keep track).",
+    // },
   ]
 
   const containerVariants: Variants = {
